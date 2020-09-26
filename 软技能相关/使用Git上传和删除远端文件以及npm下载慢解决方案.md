@@ -9,6 +9,9 @@ tags:
 
 以下步骤详细输入
 <!--more-->
+git(包括ssh等)
+	Ctrl+ins  复制
+   	Shift+ins 粘贴
 
 	1,git init
 	2,git add .
@@ -58,5 +61,12 @@ V vscode进行源代码同步云端：
 	表示有6个错误且untracked(未跟踪)
 执行III步骤后，相当于把库连接到了文件夹，之后你对文件夹内部的每一次修改都会在源代码管理出现。
 之后再次推送就行了。
+
+6 vscode+git 上传unity源代码。
+在github新建库，gitignore勾选unity。
+
+可选：在unity设置：Edit->Project Settings->Editor
+将序列化模式改成Force Text以后.unity .mat .prefab 什么的 就是文本格式了,默认是二进制的.
+总体来说 多人合作的开发 推荐改为 Force Text
 
 

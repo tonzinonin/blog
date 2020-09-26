@@ -50,6 +50,7 @@ edit-projectSettings-graphics添加管线资源。
 
 之后可以在hierarchy窗口创建2DLight了。
 一般这里的light只会渲染在对应的图层上(TargetSortingLayer), 可以用SortingGroup来更改。
+
 1. 点光源2D: 和PointLight类似，不过对2D效果进行了巨大的优化，我们可以直接拖拽调整点光源的范围大小，检视窗口也可以改变其光照锐度，角度(可以用来模拟手电筒)，给灯光添加贴图(cookie)等。
 2. GlobalLight2D: 可以照亮所有的选定的图层
 3. ShapeLight2D: 可以将贴图作为光源
